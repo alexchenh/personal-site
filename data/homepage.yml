@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: "Hi, I’m Alex."
   subtitle: "Student @Yale"
-  description: "Sophomore at Yale University studying Computer Science and Economics"
+  # description: "Studying Computer Science and Economics"
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -51,14 +51,16 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you. 
+    As a sophomore studying computer science and economics, I am interested in both 
+    building robust tools and solving high-level business problems. I love working in teams
+    where I can wear many hats, adapting and using both technical non-technical skills
+    to tackle new challenges. For my future career, I am interested in opportunities 
+    in consulting, product management, and software engineering.
     </p>
     <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
+    Outside of coursework, I work in a lab in the Yale School of Public Health,
+    I play on the Yale Mens Club Volleyball Team, I lead a team in Helix (an undergraduate healthcare tech
+    incubator), and I help coordinate art exhibitions as Events Chair for Art Exhibition Students at Yale.
     </p>'
   button:
     icon: "icon-smile-fill"
@@ -81,7 +83,9 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "A variety of computer science experiences including web development, systems programming, data anlytics, and app development, paired with exceptional soft skills such as business research, communications, and leadership."
+  description: "I have a variety of computer science experiences including web development, 
+  systems programming, data anlytics, and app development, paired with exceptional soft skills 
+  in business research, communications, and leadership."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -161,8 +165,8 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/works/drinktally.png"
+        _2x: "img/works/drinktally.png"
       is_even: false
 
     - title: "ChemCat - FreshAir"
@@ -178,15 +182,16 @@ client_and_work:
       is_even: true
 
     - title: "Ambrosia"
-      description: ""
+      description: "Nutrition-focused food delivery app to provide employees at small and medium-sized business
+      a \"company cafeteria\" with healthy, delicious options that empower their work and wellbeing."
       builtwith: React, JS, HTML, CSS, Firebase
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "img/works/ambrosia.png"
+        _2x: "img/works/ambrosia.png"
       is_even: false
 
 # testimonial
