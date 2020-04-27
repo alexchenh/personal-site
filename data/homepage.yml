@@ -131,7 +131,7 @@ client_and_work:
 
   #   - logo:
   #       x: "img/clients/kanba.png"
-  #       _2x: "img/clients/kanba@2x.png"
+  #       _2x: "img/clients/kanba@2x.png" 
   #     alt: "Kanba"
 
   #   - logo:
@@ -150,12 +150,13 @@ client_and_work:
       builtwith: Hugo, HTML, CSS, Render
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "View on GitHub"
+        URL: "https://github.com/alexchen2231/personal-site"
       image:
         x: "img/works/personal-site.png"
         _2x: "img/works/personal-site.png"
       is_even: true
+      enable_button: true
       
     - title: "Drink Tally"
       description: "Helping college students to drink safely and responsibibly, by tallying the number of drinks they've had via iPhone or Apple Watch and sharing with trusted friends."
@@ -168,6 +169,7 @@ client_and_work:
         x: "img/works/drinktally.png"
         _2x: "img/works/drinktally.png"
       is_even: false
+      enable_button: false
 
     - title: "ChemCat - FreshAir"
       description: "Automating the data processing and categorization of environmental compounds. With blank sample filtering, concentration calcuating, and data matching with an EPA database, hundreds of thouands of potential compounds can be quickly categorized into over 1,000 major and minor chemical cateogories."
@@ -180,6 +182,7 @@ client_and_work:
         x: "img/works/freshair.png"
         _2x: "img/works/freshair.png"
       is_even: true
+      enable_button: false
 
     - title: "Ambrosia"
       description: "Nutrition-focused food delivery app to provide employees at small and medium-sized business
@@ -193,32 +196,33 @@ client_and_work:
         x: "img/works/ambrosia.png"
         _2x: "img/works/ambrosia.png"
       is_even: false
+      enable_button: false
 
 # testimonial
 testimonial:
   enable: false
-  title: "Testimonials"
-  items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
-      image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+  # title: "Testimonials"
+  # items:
+  #   - name: "Daniel Jordan"
+  #     position: "Phonet, CEO"
+  #     content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+  #     image:
+  #       x: "img/testimonials/daniel-jordan.jpg"
+  #       _2x: "img/testimonials/daniel-jordan@2x.jpg"
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
-      image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+  #   - name: "Jonathan Peters"
+  #     position: "Textic, CEO"
+  #     content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+  #     image:
+  #       x: "img/testimonials/jonathan-peters.jpg"
+  #       _2x: "img/testimonials/jonathan-peters@2x.jpg"
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
+  #   - name: "Antonio Willis"
+  #     position: "Cyberse, CEO"
+  #     content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+  #     image:
+  #       x: "img/testimonials/antonio-willis.jpg"
+  #       _2x: "img/testimonials/antonio-willis@2x.jpg"
 
 # contact
 contact:
