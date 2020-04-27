@@ -81,7 +81,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  description: "A variety of computer science experiences including web development, systems programming, data anlytics, and app development, paired with exceptional soft skills such as business research, communications, and leadership."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -100,9 +100,9 @@ experience:
       company: "Innoway"
       duration: "Jul 2019 - Aug 2019"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Undergraduate Learning Assistant"
+      company: "Yale University Dept of Computer Science"
+      duration: "Aug 2019 - Present"
 
 # Client & Work
 client_and_work:
@@ -141,6 +141,18 @@ client_and_work:
   #     alt: "Ztos"
 
   works:
+    - title: "Personal Site"
+      description: "Personal portfolio site (this one!) with responsive layouts, working contact form, and an overview of projects and experiences."
+      builtwith: Hugo, HTML, CSS, Render
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/personal-site.png"
+        _2x: "img/works/personal-site.png"
+      is_even: true
+      
     - title: "Drink Tally"
       description: "Helping college students to drink safely and responsibibly, by tallying the number of drinks they've had via iPhone or Apple Watch and sharing with trusted friends."
       builtwith: Swift, Xcode
@@ -151,7 +163,7 @@ client_and_work:
       image:
         x: "img/works/radity-finance.jpg"
         _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
+      is_even: false
 
     - title: "ChemCat - FreshAir"
       description: "Automating the data processing and categorization of environmental compounds. With blank sample filtering, concentration calcuating, and data matching with an EPA database, hundreds of thouands of potential compounds can be quickly categorized into over 1,000 major and minor chemical cateogories."
@@ -161,9 +173,9 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
-      is_even: false
+        x: "img/works/freshair.png"
+        _2x: "img/works/freshair.png"
+      is_even: true
 
     - title: "Ambrosia"
       description: ""
@@ -175,7 +187,7 @@ client_and_work:
       image:
         x: "img/works/robo-advisor.jpg"
         _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
+      is_even: false
 
 # testimonial
 testimonial:
