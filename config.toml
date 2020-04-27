@@ -60,7 +60,7 @@ theme = "raditian-free-hugo-theme"
 
 [params]
 
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "UA-164652509-1" # Google Analytics works with Google Tag Manager
 
   [params.logo]
     text1 = "Alexander"
