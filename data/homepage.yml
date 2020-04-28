@@ -69,6 +69,26 @@ about:
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
+  in_progress:
+    enable: true
+    title: "What's Keeping Me Busy Right Now"
+    content: '<p class="lead">
+    My internship with Wayfair was recently cancelled, so I am actively 
+    re-recruiting for summer 2020. 
+    </p>
+    <p class="lead">
+    Additionally, I am taking <a href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=EDUC+302%3A+Behavior+Design&collapse=" target="_blank">
+    EDUC 302 Behavior Design for Coronavirus Challenges</a>, a course
+    taught at Stanford by <a href="https://www.bjfogg.com/" target="_blank">BJ Fogg</a>. Because of the global 
+    nature of the course topic for this year, the class was open to non-Stanford students to apply.
+    After submitting an <a href="https://www.youtube.com/watch?v=VSBX4tcdZHo" target="_blank">audition project</a> 
+    I was lucky enough to be accepted, and 
+    now I am working on a variety of projects that harness the power of behavior design 
+    to solve some of the more personal problems people are facing due to the pandemic.
+    For example, my <a href="https://www.youtube.com/watch?v=1bEIYd4IEjc" target="_blank">personal project</a> 
+    utilized anchor behaviors in my own life to prompt 
+    me to call my grandparents every day and keep in touch.
+    </p>'
 
 # education
 education:

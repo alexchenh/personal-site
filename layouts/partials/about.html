@@ -26,6 +26,17 @@
         </a>
       </div>
     </div>
+    {{ if .Site.Data.homepage.about.in_progress.enable }}
+    <div class="section container rad-fade-down">
+      <div class="row section--border-bottom d-flex flex-column-reverse flex-md-row">
+        <div class="col-12 my-auto my-auto">
+          <h2>{{ .Site.Data.homepage.about.in_progress.title }}</h2>
+          <p class="lead">
+            {{ .Site.Data.homepage.about.in_progress.content | safeHTML }}
+          </p>
+      </div>
+    </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}
