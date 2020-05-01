@@ -67,8 +67,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/chen-alexander/"
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "img/who-am-i/user-picture.jpg"
+    _2x: "img/who-am-i/user-picture@2x.jpg"
   in_progress:
     enable: true
     title: "What's Keeping Me Busy Right Now"
