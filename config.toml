@@ -2,6 +2,7 @@ baseURL = "https://www.alexchen.site/"
 languageCode = "en-us"
 title = "Alex Chen's Site"
 theme = "raditian-free-hugo-theme"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 # Plugins
 [params.plugins]
