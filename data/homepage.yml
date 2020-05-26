@@ -122,6 +122,10 @@ experience:
   #   URL: "#"
 
   items:
+    - title: "Data Science Volunteer"
+      company: "GetUsPPE.org"
+      duration: "May 2020 - Present"
+
     - title: "Back-End Developer"
       company: "FreshAir"
       duration: "Aug 2019 - Present"
@@ -132,7 +136,7 @@ experience:
 
     - title: "Undergraduate Learning Assistant"
       company: "Yale University Dept of Computer Science"
-      duration: "Aug 2019 - Present"
+      duration: "Aug 2019 - May 2020"
 
 # Client & Work
 client_and_work:
@@ -171,9 +175,35 @@ client_and_work:
   #     alt: "Ztos"
 
   works:
+    - title: "Outbound Comms Outreach Rank Order List of Medical Institutions (GetUsPPE.org)"
+      description: "Merging and filtering multiple data streams by fuzzy matching and filtering out potential hospitals with existing requestors database, then matching hospitals by county to corresponding COVID-19 Community Vulnerability Index and sorting."
+      builtwith: "Built with: Python, Jupyter Notebook, pandas, FuzzyWuzzy"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View on GitHub"
+        URL: ""
+      image:
+        x: "img/works/outbound-comms-outreach.png"
+        _2x: "img/works/outbound-comms-outreach.png"
+      is_even: true
+      enable_button: false
+
+    - title: "Yale Helix Site"
+      description: "Using Jamstack to revamp website for Helix, an undergraduate organization at Yale that connects medical professionals and students to launch projects that tackle important healthcare challenges."
+      builtwith: "Building with: Hugo, HTML, CSS, Render"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Site"
+        URL: "https://yalehelix.com/"
+      image:
+        x: "img/works/helix-site.png"
+        _2x: "img/works/helix-site.png"
+      is_even: false
+      enable_button: true
+    
     - title: "Personal Site"
       description: "Personal portfolio site (this one!) with responsive layouts, working contact form, and an overview of projects and experiences."
-      builtwith: Hugo, HTML, CSS, Render
+      builtwith: "Built with: Hugo, HTML, CSS, Render"
       button:
         icon: "icon-arrow-right"
         btnText: "View on GitHub"
@@ -186,20 +216,20 @@ client_and_work:
       
     - title: "Drink Tally"
       description: "Helping college students to drink safely and responsibibly, by tallying the number of drinks they've had via iPhone or Apple Watch and sharing with trusted friends."
-      builtwith: Swift, Xcode
+      builtwith: "Building with: Swift, Xcode"
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "View on GitHub"
+        URL: "https://github.com/alexchen2231/drink-tally"
       image:
         x: "img/works/drinktally.png"
         _2x: "img/works/drinktally.png"
       is_even: false
-      enable_button: false
+      enable_button: true
 
     - title: "ChemCat - FreshAir"
       description: "Automating the data processing and categorization of environmental compounds. With blank sample filtering, concentration calcuating, and data matching with an EPA database, hundreds of thouands of potential compounds can be quickly categorized into over 1,000 major and minor chemical cateogories."
-      builtwith: Flask, Python, Jupyter Notebook, Pandas, NumPy
+      builtwith: "Built with: Flask, Python, Jupyter Notebook, pandas, NumPy"
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
@@ -213,7 +243,7 @@ client_and_work:
     - title: "Ambrosia"
       description: "Nutrition-focused food delivery app to provide employees at small and medium-sized business
       a \"company cafeteria\" with healthy, delicious options that empower their work and wellbeing."
-      builtwith: React, JS, HTML, CSS, Firebase
+      builtwith: "Built with: React, JS, HTML, CSS, Firebase"
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
