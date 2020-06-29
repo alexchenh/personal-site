@@ -8,14 +8,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params.plugins]
 
   # CSS Plugins
-  [[params.plugins.css]]
-  URL = "css/custom.css"
+
   [[params.plugins.css]]
   URL = "css/main.css"
   [[params.plugins.css]]
   URL = "css/rad-icons.css"
   [[params.plugins.css]]
   URL = "css/all.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
 
 
   # JS Plugins
