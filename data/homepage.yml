@@ -25,8 +25,8 @@ showcase:
     - icon: "twitter"
       URL: "https://twitter.com/cheny2231"
 
-    # - icon: "dribbble"
-    #   URL: "https://dribbble.com/radity"
+    - icon: "medium"
+      URL: "https://medium.com/@chen.alexander"
 
     # - icon: "behance"
     #   URL: "https://www.behance.net/radity-digital"
@@ -51,21 +51,21 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    As a sophomore studying computer science and economics, I am interested in both 
-    building robust tools and solving high-level business problems. I love working in teams
-    where I can wear many hats, adapting and using both technical non-technical skills
-    to tackle new challenges. For my future career, I am interested in opportunities 
-    in consulting, product management, and software engineering.
+    As a rising junior studying computer science and economics, I am interested in 
+    empowering people through behavior design and solving
+    high-level problems. I love working in teams
+    where I can wear many hats, adapting and using both technical and non-technical skills
+    to tackle new challenges. 
     </p>
     <p class="lead">
-    Outside of coursework, I work in a lab in the Yale School of Public Health,
-    I play on the Yale Mens Club Volleyball Team, I lead a team in Helix (an undergraduate healthcare tech
-    incubator), and I help coordinate art exhibitions as Events Chair for Art Exhibition Students at Yale.
+    Outside of coursework, I lead as managing director of Helix (an undergraduate healthcare tech
+    incubator), I play on the Yale Mens Club Volleyball Team, 
+    and I help coordinate student art exhibitions as Events Chair for Art Exhibition Students at Yale.
     </p>'
   button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/in/chen-alexander/"
+    icon: "fab fa-twitter"
+    btnText: "Follow Me"
+    URL: "https://twitter.com/cheny2231"
   image:
     x: "img/who-am-i/user-picture.jpg"
     _2x: "img/who-am-i/user-picture@2x.jpg"
@@ -73,28 +73,32 @@ about:
     enable: true
     title: "What's Keeping Me Busy Right Now"
     content: '<p class="lead">
-    My internship with Wayfair was recently cancelled, so I am actively 
-    re-recruiting for summer 2020. 
-    </p>
-    <p class="lead">
-    Additionally, I am taking <a href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=EDUC+302%3A+Behavior+Design&collapse=" target="_blank">
-    EDUC 302 Behavior Design for Coronavirus Challenges</a>, a course
-    taught at Stanford by <a href="https://www.bjfogg.com/" target="_blank">BJ Fogg</a>. Because of the global 
-    nature of the course topic for this year, the class was open to non-Stanford students to apply.
-    After submitting an <a href="https://www.youtube.com/watch?v=VSBX4tcdZHo" target="_blank">audition project</a> 
-    I was lucky enough to be accepted, and 
-    now I am working on a variety of projects that harness the power of behavior design 
-    to solve some of the more personal problems people are facing due to the pandemic.
-    For example, my <a href="https://www.youtube.com/watch?v=1bEIYd4IEjc" target="_blank">personal project</a> 
-    utilized anchor behaviors in my own life to prompt 
-    me to call my grandparents every day and keep in touch. Here&#39s another project I 
-    did to <a href="https://youtu.be/nnaJI8--F0U" target="_blank">help couples in long distance relationships</a>.
+    I''m currently working at ApolloMed as a software engineer intern, doing full-stack web app development
+    with Flask, Python, HTML, CSS, JS, and SQL Server.
     </p>
     <p class="lead">
     I also started volunteering for the data science team at 
     <a href="https://getusppe.org/" target="_blank">GetUsPPE.org</a>, the largest organization in the US
-    helping coordinate PPE donations to frontline healthcare workers.
+    helping coordinate PPE donations to frontline healthcare workers. 
+    </p>
+    <p class="lead">
+    Additionally, I recently took <a href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=EDUC+302%3A+Behavior+Design&collapse=" target="_blank">
+    EDUC 302 Behavior Design for Coronavirus Challenges</a>, a course
+    taught at Stanford by <a href="https://www.bjfogg.com/" target="_blank">BJ Fogg</a>. Because of the global 
+    nature of the course topic for this year, the class was open to non-Stanford students to apply.
+    I worked on a variety of projects that harness the power of behavior design 
+    to solve some of the problems people are facing due to the pandemic.
+    For example, my <a href="https://www.youtube.com/watch?v=1bEIYd4IEjc" target="_blank">personal project</a> 
+    utilized anchor behaviors in my own life to prompt 
+    me to call my grandparents every day and keep in touch. Here&#39s another project I 
+    did to <a href="https://youtu.be/nnaJI8--F0U" target="_blank">help couples in long distance relationships</a>.
+    My final project was <a href="https://queuepalsprojectvideo.alexchen.dev/" 
+    target="_blank">QueuePals</a>, 
+    a virtual waiting room solution to help patients
+    safely check into their doctor appointments over text message.
     </p>'
+
+
 
 # education
 education:
@@ -122,13 +126,17 @@ experience:
   #   URL: "#"
 
   items:
+    - title: "Software Engineer Intern"
+      company: "ApolloMed"
+      duration: "June 2020 - Present"
+
     - title: "Data Science Volunteer"
       company: "GetUsPPE.org"
       duration: "May 2020 - Present"
 
-    - title: "Back-End Developer"
-      company: "FreshAir"
-      duration: "Aug 2019 - Present"
+    # - title: "Back-End Developer"
+    #   company: "FreshAir"
+    #   duration: "Aug 2019 - Present"
 
     - title: "Analyst Intern"
       company: "Innoway"
@@ -175,18 +183,35 @@ client_and_work:
   #     alt: "Ztos"
 
   works:
+    - title: "QueuePals.com"
+      description: 'Over the span of just three weeks, I worked with a team of two Stanford
+      students, using the behavior design process 
+      to build and launch a virtual waiting room solution at two healthcare clinics. 
+      Our text-based system
+      enabled over 50 patients to safely check-in before their appointment.'
+      builtwith: "Built with: Behavior Design (Magic Wanding, Focus Mapping, Snap Testing), Glide Apps, Twilio, Google App Scripts"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project Video"
+        URL: "https://queuepalsprojectvideo.alexchen.dev/"
+      image:
+        x: "img/works/app-iphone.png"
+        _2x: "img/works/app-iphone.png"
+      is_even: false
+      enable_button: true
+
     - title: "Outbound Comms Outreach Rank Order List of Medical Institutions (GetUsPPE.org)"
       description: "Merging and filtering multiple data streams by fuzzy matching and filtering out potential hospitals with existing requestors database, then matching hospitals by county to corresponding COVID-19 Community Vulnerability Index and sorting."
       builtwith: "Built with: Python, Jupyter Notebook, pandas, FuzzyWuzzy"
       button:
         icon: "icon-arrow-right"
         btnText: "View on GitHub"
-        URL: ""
+        URL: "https://github.com/GetUsPPE/Rank-Order-List-Project-Public"
       image:
         x: "img/works/outbound-comms-outreach.png"
         _2x: "img/works/outbound-comms-outreach.png"
       is_even: true
-      enable_button: false
+      enable_button: true
 
     - title: "Yale Helix Site"
       description: "Using Jamstack to revamp website for Helix, an undergraduate organization at Yale that connects medical professionals and students to launch projects that tackle important healthcare challenges."
@@ -201,44 +226,44 @@ client_and_work:
       is_even: false
       enable_button: true
     
-    - title: "Personal Site"
-      description: "Personal portfolio site (this one!) with responsive layouts, working contact form, and an overview of projects and experiences."
-      builtwith: "Built with: Hugo, HTML, CSS, Render"
-      button:
-        icon: "icon-arrow-right"
-        btnText: "View on GitHub"
-        URL: "https://github.com/alexchen2231/personal-site"
-      image:
-        x: "img/works/personal-site.png"
-        _2x: "img/works/personal-site.png"
-      is_even: true
-      enable_button: true
+    # - title: "Personal Site"
+    #   description: "Personal portfolio site (this one!) with responsive layouts, working contact form, and an overview of projects and experiences."
+    #   builtwith: "Built with: Hugo, HTML, CSS, Render"
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "View on GitHub"
+    #     URL: "https://github.com/alexchen2231/personal-site"
+    #   image:
+    #     x: "img/works/personal-site.png"
+    #     _2x: "img/works/personal-site.png"
+    #   is_even: true
+    #   enable_button: true
       
-    - title: "Drink Tally"
-      description: "Helping college students to drink safely and responsibibly, by tallying the number of drinks they've had via iPhone or Apple Watch and sharing with trusted friends."
-      builtwith: "Building with: Swift, Xcode"
-      button:
-        icon: "icon-arrow-right"
-        btnText: "View on GitHub"
-        URL: "https://github.com/alexchen2231/drink-tally"
-      image:
-        x: "img/works/drinktally.png"
-        _2x: "img/works/drinktally.png"
-      is_even: false
-      enable_button: true
+    # - title: "Drink Tally"
+    #   description: "Helping college students to drink safely and responsibibly, by tallying the number of drinks they've had via iPhone or Apple Watch and sharing with trusted friends."
+    #   builtwith: "Building with: Swift, Xcode"
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "View on GitHub"
+    #     URL: "https://github.com/alexchen2231/drink-tally"
+    #   image:
+    #     x: "img/works/drinktally.png"
+    #     _2x: "img/works/drinktally.png"
+    #   is_even: false
+    #   enable_button: true
 
-    - title: "ChemCat - FreshAir"
-      description: "Automating the data processing and categorization of environmental compounds. With blank sample filtering, concentration calcuating, and data matching with an EPA database, hundreds of thouands of potential compounds can be quickly categorized into over 1,000 major and minor chemical cateogories."
-      builtwith: "Built with: Flask, Python, Jupyter Notebook, pandas, NumPy"
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/freshair.png"
-        _2x: "img/works/freshair.png"
-      is_even: true
-      enable_button: false
+    # - title: "ChemCat - FreshAir"
+    #   description: "Automating the data processing and categorization of environmental compounds. With blank sample filtering, concentration calcuating, and data matching with an EPA database, hundreds of thouands of potential compounds can be quickly categorized into over 1,000 major and minor chemical cateogories."
+    #   builtwith: "Built with: Flask, Python, Jupyter Notebook, pandas, NumPy"
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Case Study"
+    #     URL: "#"
+    #   image:
+    #     x: "img/works/freshair.png"
+    #     _2x: "img/works/freshair.png"
+    #   is_even: true
+    #   enable_button: false
 
     - title: "Ambrosia"
       description: "Nutrition-focused food delivery app to provide employees at small and medium-sized business
@@ -251,7 +276,7 @@ client_and_work:
       image:
         x: "img/works/ambrosia.png"
         _2x: "img/works/ambrosia.png"
-      is_even: false
+      is_even: true
       enable_button: false
 
 # testimonial
