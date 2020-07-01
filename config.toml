@@ -65,7 +65,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 
-  googleTagManagerID = "UA-164652509-1"
+  googleTagManagerID = "UA-168982557-1"
 
   [params.logo]
     text1 = "Alexander"
