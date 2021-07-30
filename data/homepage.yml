@@ -106,7 +106,7 @@ education:
   title: "Education"
   items:
     - university: "Yale University"
-      year: "2018-2022"
+      year: "2018-2023"
       degree: "Bachelor of Science (B.S.), Computer Science and Economics"
 
 # experience
@@ -143,7 +143,6 @@ experience:
     # - title: "Back-End Developer"
     #   company: "FreshAir"
     #   duration: "Aug 2019 - Present"
-
 
     - title: "Undergraduate Learning Assistant"
       company: "Yale University Dept of Computer Science"
@@ -271,19 +270,19 @@ client_and_work:
     #   is_even: true
     #   enable_button: false
 
-    - title: "Ambrosia"
-      description: "Nutrition-focused food delivery app to provide employees at small and medium-sized business
-      a \"company cafeteria\" with healthy, delicious options that empower their work and wellbeing."
-      builtwith: "Built with: React, JS, HTML, CSS, Firebase"
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/ambrosia.png"
-        _2x: "img/works/ambrosia.png"
-      is_even: true
-      enable_button: false
+    # - title: "Ambrosia"
+    #   description: "Nutrition-focused food delivery app to provide employees at small and medium-sized business
+    #   a \"company cafeteria\" with healthy, delicious options that empower their work and wellbeing."
+    #   builtwith: "Built with: React, JS, HTML, CSS, Firebase"
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Case Study"
+    #     URL: "#"
+    #   image:
+    #     x: "img/works/ambrosia.png"
+    #     _2x: "img/works/ambrosia.png"
+    #   is_even: true
+    #   enable_button: false
 
 # testimonial
 testimonial:
