@@ -113,9 +113,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "I have a variety of computer science experiences including web development, 
-  systems programming, data anlytics, and app development, paired with exceptional soft skills 
-  in business research, communications, and leadership."
+  description: "I have a variety of data, engineering and product experiences."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -126,9 +124,17 @@ experience:
   #   URL: "#"
 
   items:
+    - title: "Product Manager Intern"
+      company: "Cloudflare"
+      duration: "June 2021 - Present"
+
+    - title: "Software Engineer Intern"
+      company: "PathAI"
+      duration: "January 2021 - April 2021"
+
     - title: "Software Engineer Intern"
       company: "ApolloMed"
-      duration: "June 2020 - Present"
+      duration: "June 2020 - August 2020"
 
     - title: "Data Science Volunteer"
       company: "GetUsPPE.org"
@@ -138,14 +144,14 @@ experience:
     #   company: "FreshAir"
     #   duration: "Aug 2019 - Present"
 
-    - title: "Analyst Intern"
-      company: "Innoway"
-      duration: "Jul 2019 - Aug 2019"
 
     - title: "Undergraduate Learning Assistant"
       company: "Yale University Dept of Computer Science"
       duration: "Aug 2019 - May 2020"
 
+    - title: "Analyst Intern"
+      company: "Innoway"
+      duration: "Jul 2019 - Aug 2019"
 # Client & Work
 client_and_work:
   title: "Projects"

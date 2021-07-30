@@ -1,6 +1,6 @@
 baseURL = "https://www.alexchen.site/"
 languageCode = "en-us"
-title = "Alex Chen's Site"
+title = "Alex Chen"
 theme = "raditian-free-hugo-theme"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
@@ -72,5 +72,5 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     text2 = "Chen"
 
   [params.footer]
-      copyright = "© Alexander Chen 2020. All rights reserved."
+      copyright = "© Alexander Chen 2021. All rights reserved."
       [params.footer.radity_logo]
