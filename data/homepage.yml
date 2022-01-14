@@ -17,22 +17,22 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/chen-alexander/"
+      URL: "https://linkedin.alexchen.dev/"
 
     - icon: "github"
-      URL: "https://github.com/alexchen2231/"
+      URL: "https://github.alexchen.dev/"
 
     - icon: "twitter"
-      URL: "https://twitter.com/cheny2231"
+      URL: "https://twitter.alexchen.dev/"
 
     - icon: "medium"
-      URL: "https://alexchenh.medium.com/"
+      URL: "https://medium.alexchen.dev/"
 
     # - icon: "behance"
     #   URL: "https://www.behance.net/radity-digital"
 
-    # - icon: "youtube"
-    #   URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+    - icon: "youtube"
+      URL: "https://youtube.alexchen.dev"
 
     # - icon: "instagram"
     #   URL: "https://www.instagram.com/teamradity/"
@@ -51,7 +51,7 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    As a rising junior studying computer science and economics, I am interested in 
+    As a senior studying computer science and economics, I am interested in 
     empowering people through behavior design and solving
     high-level problems. I love working in teams
     where I can wear many hats, adapting and using both technical and non-technical skills
@@ -65,7 +65,7 @@ about:
   button:
     icon: "fab fa-twitter"
     btnText: "Follow Me"
-    URL: "https://twitter.com/cheny2231"
+    URL: "https://twitter.alexchen.dev/"
   image:
     x: "img/who-am-i/user-picture.jpg"
     _2x: "img/who-am-i/user-picture@2x.jpg"
@@ -117,7 +117,7 @@ experience:
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/chen-alexander/"
+    URL: "https://linkedin.alexchen.dev/"
   # button2:
   #   icon: "icon-profile-fill"
   #   btnText: "Download My Resume"
@@ -126,7 +126,7 @@ experience:
   items:
     - title: "Product Manager Intern"
       company: "Cloudflare"
-      duration: "June 2021 - Present"
+      duration: "June 2021 - August 2021"
 
     - title: "Software Engineer Intern"
       company: "PathAI"
