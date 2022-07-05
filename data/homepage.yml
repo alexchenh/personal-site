@@ -220,18 +220,18 @@ client_and_work:
       is_even: true
       enable_button: true
 
-    - title: "Yale Helix Site"
-      description: "Using Jamstack to revamp website for Helix, an undergraduate organization at Yale that connects medical professionals and students to launch projects that tackle important healthcare challenges."
-      builtwith: "Building with: Hugo, HTML, CSS, Render"
-      button:
-        icon: "icon-arrow-right"
-        btnText: "View Site"
-        URL: "https://yalehelix.com/"
-      image:
-        x: "img/works/helix-site.png"
-        _2x: "img/works/helix-site.png"
-      is_even: false
-      enable_button: true
+    # - title: "Yale Helix Site"
+    #   description: "Using Jamstack to revamp website for Helix, an undergraduate organization at Yale that connects medical professionals and students to launch projects that tackle important healthcare challenges."
+    #   builtwith: "Building with: Hugo, HTML, CSS, Render"
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "View Site"
+    #     URL: "https://yalehelix.com/"
+    #   image:
+    #     x: "img/works/helix-site.png"
+    #     _2x: "img/works/helix-site.png"
+    #   is_even: false
+    #   enable_button: true
     
     # - title: "Personal Site"
     #   description: "Personal portfolio site (this one!) with responsive layouts, working contact form, and an overview of projects and experiences."
