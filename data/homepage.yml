@@ -70,11 +70,10 @@ about:
     x: "img/who-am-i/user-picture.jpg"
     _2x: "img/who-am-i/user-picture@2x.jpg"
   in_progress:
-    enable: true
+    enable: false
     title: "What's Keeping Me Busy Right Now"
     content: '<p class="lead">
-    I''m currently working at ApolloMed as a software engineer intern, doing full-stack web app development
-    with Flask, Python, HTML, CSS, JS, and SQL Server.
+    I''m currently working at Cloudflare as a product manager intern, building features for Magic Firewall.
     </p>
     <p class="lead">
     I also started volunteering for the data science team at 
@@ -106,7 +105,7 @@ education:
   title: "Education"
   items:
     - university: "Yale University"
-      year: "2018-2023"
+      year: "2018-2022"
       degree: "Bachelor of Science (B.S.), Computer Science and Economics"
 
 # experience
@@ -124,6 +123,9 @@ experience:
   #   URL: "#"
 
   items:
+    - title: "Product Manager Intern"
+      company: "Cloudflare"
+      duration: "June 2022 - August 2022"
     - title: "Product Manager Intern"
       company: "Cloudflare"
       duration: "June 2021 - August 2021"
